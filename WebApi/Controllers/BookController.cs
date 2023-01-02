@@ -14,7 +14,7 @@ using static WebApi.BookOperations.CreateBook.CreateBookCommand;
 namespace WebApi.AddControllers
 {
     [ApiController]
-    [Route("Controllers")]
+    [Route("[Controller]s")]
     public class BookController : ControllerBase
     {
         private readonly BookStoreDbContext _context;
